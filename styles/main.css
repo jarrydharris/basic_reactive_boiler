@@ -1,0 +1,30 @@
+:root {
+    --grey-01: #22272b;
+    --grey-02: #495054;
+    --grey-03: #cdd3d6;
+    --grey-04: #ebebeb;
+    --white: #fff;
+
+    --container-max-width: 1200px;
+    --container-width: 75rem;
+    --border-radius: 0.25rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: small;
+}
+
+
