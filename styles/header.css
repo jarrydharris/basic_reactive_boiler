@@ -136,7 +136,14 @@ button:disabled {
     color: #000;
 }
 
-@media (min-width: 30rem) {
+/* Breakpoints
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+*/
+
+@media (min-width: 576px) {
     body {
         font-size: 1rem;
         line-height: 1.5rem;
@@ -206,5 +213,17 @@ button:disabled {
     .search__text {
         font-size: 0;
     }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
 
 }

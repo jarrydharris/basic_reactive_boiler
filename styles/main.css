@@ -9,13 +9,8 @@
     --container-width: 75rem;
     --border-radius: 0.25rem;
 
-    /* breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-) !default; */
+
+
 }
 
 *,
@@ -62,7 +57,14 @@ hr {
     margin-right: auto;
 }
 
-@media (min-width: 30rem) {
+/* Breakpoints
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+*/
+
+@media (min-width: 576px) {
     body {
         margin-left: auto;
         margin-right: auto;
@@ -81,4 +83,16 @@ hr {
         width: 66.6666666667%;
         padding: 1rem;
     }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
